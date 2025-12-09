@@ -44,9 +44,9 @@ float total_energy = 0.0;
 
 void get_pzem_data(const char* name, PZEM004Tv30& pzem) {
   float voltage = pzem.voltage();
-  float current = pzem.current() * CORRECTION_FACTOR; // Terapkan faktor skala CT
-  float power = pzem.power() * CORRECTION_FACTOR;     // Terapkan faktor skala CT
-  float energy = pzem.energy() * CORRECTION_FACTOR;   // Terapkan faktor skala CT
+  float current = pzem.current() * CORRECTION_FACTOR; 
+  float power = pzem.power() * CORRECTION_FACTOR;     
+  float energy = pzem.energy() * CORRECTION_FACTOR;   
   float frequency = pzem.frequency();
   float pf = pzem.pf();
 
