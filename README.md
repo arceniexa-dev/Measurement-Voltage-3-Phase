@@ -1,1 +1,1 @@
-# Measurement-Voltage-3-Phase
+This document outlines the architecture and functionality of a project designed for comprehensive Three-Phase Electrical Energy Monitoring using an ESP32 microcontroller, PZEM-004T sensors, and robust integration with Telegram for real-time alerts and Grafana for rich data visualization.
